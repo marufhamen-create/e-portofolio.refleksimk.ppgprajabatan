@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Pembelajaran Mendalam dan Asesmen Lanjut">
+  <defs><linearGradient id="pma2-g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#155d43"/><stop offset="1" stop-color="#2ab88a"/></linearGradient></defs>
+  <circle cx="64" cy="64" r="58" fill="url(#pma2-g)"/><circle cx="64" cy="64" r="48" fill="none" stroke="#fff" stroke-opacity=".32" stroke-width="2"/>
+  <g fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M61 35v55M61 43c-9-13-25-8-24 5-10 2-11 17-3 22-6 12 6 23 17 16 3 7 10 5 10-2M61 43c9-13 25-8 24 5 10 2 11 17 3 22"/><path d="m73 79 7 7 15-18"/></g>
+  <circle cx="102" cy="26" r="13" fill="#e7b74c"/><text x="102" y="31" text-anchor="middle" fill="#1b2430" font-family="Arial" font-weight="700" font-size="11">02</text>
+</svg>
