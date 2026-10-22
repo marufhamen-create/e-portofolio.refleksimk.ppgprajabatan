@@ -32,3 +32,12 @@ Navbar memakai URL logo yang sama/serupa dengan proyek portofolio sebelumnya dan
 - Panel Semester I memuat enam mata kuliah dan seluruh artefak yang sudah ada.
 - Panel Semester II memuat lima mata kuliah: PSE, PMA Lanjut, PPL Mandiri, Projek Kepemimpinan, dan Pendidikan Kepulauan.
 - Gunakan tombol Semester I dan Semester II pada beranda untuk membuka halaman masing-masing. Pada navigasi utama, arahkan kursor atau klik tombol semester untuk menampilkan menu Ringkasan, Perjalanan, Refleksi 4C, Artefak, dan Refleksi Akhir.
+
+
+## Tambahan Tugas Seminar PPG 4.2 (LK 3)
+- `refleksi-ppg.html` — halaman penutup keseluruhan Semester I dan II yang menampilkan jawaban lengkap LK 3 serta rencana tindak lanjut.
+- `documents/LK-3-Refleksi-Akhir-PPG.pdf` — LK 3 resmi untuk dibaca dosen melalui browser.
+- `documents/LK-3-Refleksi-Akhir-PPG.docx` — LK 3 resmi format Word.
+- Menu `Refleksi Akhir PPG` tersedia di beranda, Semester I, dan Semester II.
+- **Tautan yang dikirim ke LMS setelah website dipublikasikan:** alamat situs ditambah `/refleksi-ppg.html` (contoh: `https://NAMA-SITUS.netlify.app/refleksi-ppg.html`). Jangan menyerahkan file ZIP sebagai tautan website.
+- Untuk GitHub Pages: unggah **isi** ZIP ini ke root repository GitHub Pages yang sama, tanpa menghapus dokumen lain, lalu tunggu publikasi. Jangan mengunggah hanya file ZIP sebagai satu file.

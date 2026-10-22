@@ -30,6 +30,8 @@
 
   if(pageSemester){
     document.querySelector(`[data-semester-menu="${pageSemester}"] .nav-dropdown-toggle`)?.classList.add('active');
+  }else if(document.body.classList.contains('ppg-detail-page')){
+    document.querySelector('.nav-lk3')?.classList.add('active');
   }else{
     document.querySelector('.nav-home')?.classList.add('active');
   }
@@ -117,8 +119,10 @@
 
   // Moments
   const moments=document.getElementById('momentSlider');
-  document.getElementById('momentNext').addEventListener('click',()=>moments.scrollBy({left:330,behavior:'smooth'}));
-  document.getElementById('momentPrev').addEventListener('click',()=>moments.scrollBy({left:-330,behavior:'smooth'}));
+  if(moments){
+    document.getElementById('momentNext')?.addEventListener('click',()=>moments.scrollBy({left:330,behavior:'smooth'}));
+    document.getElementById('momentPrev')?.addEventListener('click',()=>moments.scrollBy({left:-330,behavior:'smooth'}));
+  }
 
   // PDF modal
   const modal=document.getElementById('pdfModal'), frame=document.getElementById('pdfFrame'), openPdf=document.getElementById('openPdf');
